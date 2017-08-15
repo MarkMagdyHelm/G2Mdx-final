@@ -1,0 +1,147 @@
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+
+        >
+
+        <!-- TODO: Update blank fragment layout -->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="150dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_height="81dp"
+                app:srcCompat="@drawable/g2m"
+                android:scaleType="fitXY"
+                />
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text='"Go To Market Dynamics G2M “ is a fast growing organization founded in 2017 focusing on bringing greater value to customers’ integrated solutions. Offering ERP implementation, CRM solutions, process automations and improvement, mobile applications, customized solutions, digital marketing, routing solutions, marketing research and GIS solutions'
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:paddingLeft="9dp"
+                android:maxLines="10"
+                android:lines="10"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:gravity="center_vertical|center"
+                android:text="Why G2MDX"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="9dp"
+                android:text="management and staff team are mixed with young and experienced employees with over 20 years in multinational and large domestics organizations"
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+        />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="101dp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33"
+                    android:orientation="vertical">
+                    <ImageButton
+                        android:id="@+id/about1"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.33"
+                        app:srcCompat="@drawable/about1"
+                        android:scaleType="fitXY"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.33"
+                        android:paddingLeft="20dp"
+                        android:text="Our Vision"
+                        android:textColorLink="@android:color/background_dark"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33"
+                    android:orientation="vertical">
+                    <ImageButton
+                        android:id="@+id/about2"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.33"
+                        app:srcCompat="@drawable/about2"
+                        android:scaleType="fitXY"/>
+
+                    <TextView
+                        android:id="@+id/aboutt2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.33"
+                        android:paddingLeft="20dp"
+                        android:text="Our Mission"
+                        android:textColorLink="@android:color/background_dark"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33"
+                    android:orientation="vertical">
+                    <ImageButton
+                        android:id="@+id/about3"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.33"
+                        app:srcCompat="@drawable/about3"
+                        android:scaleType="fitXY"/>
+
+                    <TextView
+                        android:id="@+id/aboutt3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.33"
+                        android:paddingLeft="20dp"
+                        android:text="Our values"
+                        android:textColorLink="@android:color/background_dark"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </FrameLayout>
+</ScrollView>

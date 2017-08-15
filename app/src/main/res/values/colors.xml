@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#28d676</color>
+    <color name="colorPrimaryDark">#07114f</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorA">#C0F0EF</color>
+    <color name="g">#Ff95</color>
+    <color name="glass">#ff3fffff</color>
+    <color name="yellew">#FF4</color>
+    <color name="gre"> #75ffb3</color>
+
+</resources>

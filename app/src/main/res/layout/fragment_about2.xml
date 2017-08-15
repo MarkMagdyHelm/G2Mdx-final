@@ -1,0 +1,49 @@
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dev_2.g2mdx.Fragments.AboutFragment.about2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            app:srcCompat="@drawable/about1" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Our Vision"
+            android:textSize="30dp"
+            android:textStyle="bold|italic"
+            android:paddingTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Is to become a Strategic Enabler and Allies to our customer, and when it comes to information technology, solution and services G2M will be their first choice not only in Egypt but in whole MEA region"
+            android:textSize="25dp"
+            android:paddingTop="5dp"
+/>
+
+    </LinearLayout>
+</FrameLayout>
+</ScrollView>
